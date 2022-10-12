@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="assets/favicon.ico">
+	<title>CV</title>
+</head>
+<body class="body">
+	<header class="header">
+		<div class="header__image-wrapper">
+			<img class="header__photo" src="/assets/myPhoto.jpg" alt="my photo" height="250">
+		</div>
+		<div class="header__text-wrapper">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a href="#summary" class="nav__link">Summary</a>
+					</li>
+					<li class="nav__item">
+						<a href="#skills" class="nav__link">Skills</a>
+					</li>
+					<li class="nav__item">
+						<a href="#experience" class="nav__link">Experience</a>
+					</li>
+					<li class="nav__item">
+						<a href="#projects" class="nav__link">Projects</a>
+					</li>
+					<li class="nav__item">
+						<a href="#education" class="nav__link">Education</a>
+					</li>
+					<li class="nav__item">
+						<a href="#languages" class="nav__link">Languages</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__title-wrapper">
+				<h1 class="header__title" id="name">
+					Olga Aheichyk
+				</h1>
+				<p class="header__subtitle">
+					Frontend developer, Warsaw, Poland
+				</p>
+				<section class="contacts">
+					<h3 class="contacts__title visually-hidden">Contacts</h3>
+					<ul class="contacts__list">
+						<li class="contacts__item">
+							<a href="mailto:olga.aheichyk@gmail.com" class="contacts__link">
+								<img src="/assets/emailIcon.png" alt="email">
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a href="https://t.me/olga_ageichik" class="contacts__link">
+								<img src="/assets/telegramIcon.svg" alt="telegram">
+							</a>
+						</li>
+						<li class="contacts__item">
+							<a href="https://www.linkedin.com/in/olga-aheichyk/" class="contacts__link">
+								<img src="/assets/linkedInIcon.svg" alt="linkedin">
+							</a>
+						</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section class="summary" id="summary">
+			<h2 class="summary__title">Summary</h2>
+			<p class="summary__descriptiom">
+				I have almost a year of commercial experience in frontend development of web applications.
+				Have good knowledge of HTML, CSS & JavaScript and thorough understanding of React-Redux core principles. Also I want and
+				willing to learn new technologies.
+			</p>
+		</section>
+		<section class="skills" id="skills">
+			<h2 class="skills__title">Skills</h2>
+			<ul class="skills__list">
+				<li class="skills__item">
+					<span class="skills__item-name">
+						Programming languages and technologies:
+					</span>
+					<span class="skills__item-description">
+						HTML, CSS, SCSS, JavaScript, Webpack
+					</span>
+				</li>
+				<li class="skills__item">
+					<span class="skills__item-name">
+						Operating Systems:
+					</span>
+					<span class="skills__item-description">
+						Windows, MacOS
+					</span>
+				</li>
+				<li class="skills__item">
+					<span class="skills__item-name">
+						Frameworks and Libraries:
+					</span>
+					<span class="skills__item-description">
+						React, Redux, Redux-Thunk, Styled Components, Reselect, react-virtualized, react-d3
+					</span>
+				</li>
+				<li class="skills__item">
+					<span class="skills__item-name">
+						Environments and Tools:
+					</span>
+					<span class="skills__item-description">
+						Visual Studio Code, SQL Server Management Studio, Visual Studio, Figma, Amazon Web Services (Redshift, Lambda, API
+						Gateway, Cognito)
+					</span>
+				</li>
+				<li class="skills__item">
+					<span class="skills__item-name">
+						Version Control:
+					</span>
+					<span class="skills__item-description">
+						SVN, Git
+					</span>
+				</li>
+			</ul>
+		</section>
+		<section class="code-examples">
+			<h2 class="code-examples__title">Code examples</h2>
+			<code>
+				const multiply = (a, b) => a * b;
+			</code>
+		</section>
+		<section class="experience" id="experience">
+			<h2 class="experience__title">Experience</h2>
+			<p class="experience__item">
+				<span class="experience__item-name">
+					Sep 2021 - Jul 2022 - 
+				</span>
+				<span class="experience__item-description">
+					Junior Frontend developer at Imbue Systems, Minsk
+				</span>
+			</p>
+		</section>
+
+		<section class="projects" id="projects">
+			<h2 class="projects__title">Projects</h2>
+			<ul class="projects__list">
+				<li class="project__item">
+					<a href="https://github.com/olga-aheichyk" target="_blank">Learning projects at my GitHub account</a>
+				</li>
+				<li>
+					<span>Commertial projects:</span>
+					<a href="https://www.toothapps.com" target="_blank">Toothapps</a>
+				</li>
+			</ul>
+		</section>
+		<section class="education" id="education">
+			<h2 class="education__title">
+				Education
+			</h2>
+			<ul class="education__list">
+				<li class="education__item">
+					<span class="experience__item-name">
+						2007 - 2015 - 
+					</span>
+					<span class="experience__item-description">
+						Belarussian State Medical University, Master's degree
+					</span>
+				</li>
+				<li class="education__item">
+					<span class="experience__item-name">
+						2020 - 2022 -
+					</span>
+					<span class="experience__item-description">
+						Frontend development study (HTML Academy, RS School)
+					</span>
+				</li>
+			</ul>
+		</section>
+		<section class="languages" id="languages">
+			<h2 class="languages__title">Languages:</h2>
+			<ul class="languages__list">
+				<li class="languages__item">Russian: Native</li>
+				<li class="languages__item">Englich: Intermediate</li>
+				<li class="languages__item">Polish: Beginner</li>
+			</ul>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__github">
+			<a class="footer__github-link" href="https://github.com/olga-aheichyk">
+				<img src="/assets/gitHubLogo.png" alt="link to my GitHub" height="50">
+			</a>
+		</div>
+		<div class="footer__name">
+			<a class="footer__name-link" href="#name" >Olga Aheichyk</a>
+			<span class="footer__name-year"> - Oct 2022</span>
+		</div>
+		<div class="footer__course">
+			<a href="https://rs.school/js/">
+				<img src="/assets/RSSLogo.png" alt="RS School" height="50">
+			</a>
+		</div>
+	</footer>
+	
+</body>
+</html>
