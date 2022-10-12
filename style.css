@@ -17,6 +17,27 @@ a:hover {
 	text-decoration: none;
 }
 
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
 .header {
 	grid-row: 1;
 	margin-top: 20px;
@@ -48,13 +69,14 @@ a:hover {
 	justify-content: space-between;
 }
 
-.nav__item {
-	list-style-type: none;
-}
-
 .header__title-wrapper {
 	display: flex;
 	flex-direction: column;
+}
+
+.contacts__list {
+	display: flex;
+	justify-content: center;
 }
 
 .main {
@@ -92,4 +114,8 @@ a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.footer__name-year {
+	font-weight: 700;
 }
