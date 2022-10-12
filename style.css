@@ -95,6 +95,10 @@ li {
 	grid-column: 1;
 }
 
+.code-examples {
+	grid-column: 1;
+}
+
 .education {
 	grid-column: 2;
 }
@@ -102,6 +106,11 @@ li {
 .experience {
 	grid-column: 2;
 	grid-row: 1;
+}
+
+.projects {
+	grid-column: 2;
+	grid-row: 2;
 }
 
 .languages {
